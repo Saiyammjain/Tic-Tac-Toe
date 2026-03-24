@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tic Tac Toe</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Star background -->
+<div class="stars" id="stars"></div>
+
+<div class="wrapper">
+  <h1>TIC&nbsp;TAC&nbsp;TOE</h1>
+
+  <!-- Score display -->
+  <div class="scores">
+    <div class="score-item x-score">X <span id="scoreX">0</span></div>
+    <div class="score-item d-score">DRAW <span id="scoreDraw">0</span></div>
+    <div class="score-item o-score">O <span id="scoreO">0</span></div>
+  </div>
+
+  <!-- Whose turn -->
+  <div class="turn" id="turn">PLAYER X'S TURN</div>
+
+  <!-- Game board -->
+  <div class="board" id="board">
+    <!-- 9 cells injected by JS -->
+  </div>
+
+  <!-- Result message -->
+  <div class="status" id="status"></div>
+
+  <!-- Reset -->
+  <button class="reset-btn" id="resetBtn">[ NEW GAME ]</button>
+</div>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
